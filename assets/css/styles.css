@@ -447,7 +447,7 @@ img{
     }
     .home__img{
         width: 524px;
-        right: 10%;
+        right: 0;
     }
 
     .about__container{
@@ -502,6 +502,6 @@ img{
     }
     .home__img {
         width: 500px;
-        right: 24%;
+        right: 0;
     }
 }
