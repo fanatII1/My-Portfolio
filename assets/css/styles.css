@@ -9,10 +9,12 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #fd6930;
+    --first-color: #1ab3bc;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
+    --second-color: #47ff9a;
+    --underline-color: #1ab3bc;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -99,7 +101,9 @@ img{
     right: 0;
     margin: auto;
     top: 2rem;
-    background-color: var(--first-color);
+    background: #47ff9a;
+    background: -webkit-linear-gradient(0deg, #47ff9a 0%, #1ab3bc 100%);
+    background: linear-gradient(0deg, #47ff9a 0%, #1ab3bc 100%);
 }
 
 /*===== LAYOUT =====*/
@@ -118,7 +122,6 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
 }
 
 /*===== NAV =====*/
@@ -167,7 +170,7 @@ img{
     color: var(--white-color);
 }
 .nav__toggle{
-    color: var(--white-color);
+    color: var(--second-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -191,7 +194,9 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background: #47ff9a;
+    background: -webkit-linear-gradient(0deg, #47ff9a 0%, #1ab3bc 100%);
+    background: linear-gradient(0deg, #47ff9a 0%, #1ab3bc 100%);
     overflow: hidden;
 }
 .home__container{
@@ -235,7 +240,8 @@ img{
     padding-top: 1rem;
     width: 120px;
     height: 120px;
-    background-color: var(--first-color);
+    background: -webkit-linear-gradient(0deg, #47ff9a 0%, #1ab3bc 100%);
+    background: linear-gradient(0deg, #47ff9a 0%, #1ab3bc 100%);
     border-radius: 50%;
     overflow: hidden;
 }
@@ -244,7 +250,7 @@ img{
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
-    color: var(--first-color);
+    color: var(--underline-color);
     margin-bottom: var(--mb-1);
 }
 .about__text{
@@ -259,7 +265,7 @@ img{
     margin: 0 var(--mb-1);
 }
 .about__social-icon:hover{
-    color: var(--first-color);
+    color: var(--second-color);
 }
 
 /* ===== SKILLS =====*/
@@ -267,7 +273,7 @@ img{
     row-gap: 2rem;
 }
 .skills__subtitle{
-    color: var(--first-color);
+    color: var(--underline-color);
     margin-bottom: var(--mb-3);
 }
 .skills__name{
@@ -280,7 +286,7 @@ img{
     border-radius: .25rem;
 }
 .skills__name:hover{
-    background-color: var(--first-color);
+    background-color: var(--underline-color);
     color: var(--white-color);
 }
 .skills__img img{

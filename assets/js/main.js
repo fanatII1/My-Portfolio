@@ -11,6 +11,24 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+
+$(window).on("scroll touchmove", function() {
+
+    if ($(document).scrollTop() >= $("#about").position().top) {
+        if ($(document).scrollTop() >= $("#home").position().top) {
+            $('.l-header').css('background-color', '#1ab3bc');
+          };
+    }
+    else{
+        if ($(document).scrollTop() >= $("#home").position().top) {
+            $('.l-header').css('background-color', 'transparent');
+          };
+    }
+  });
+
+
+
+
 /*===== REMOVE MENU MOBILE =====*/
 const navLink = document.querySelectorAll('.nav__link')
 
