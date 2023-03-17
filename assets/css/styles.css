@@ -304,6 +304,7 @@ img{
 .portfolio__img{
     position: relative;
     overflow: hidden;
+    height: 110%;
 }
 .portfolio__img img{
     border-radius: .5rem;
@@ -478,7 +479,7 @@ img{
     .portfolio__container{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2, 1fr);
-        column-gap: 2rem;
+        column-gap: 3rem;
     }
 
     .contact__container{
